@@ -2329,8 +2329,6 @@ function Ps(r) {
   );
 }
 
-
-
 function js(r, e, n) {
   let { $$slots: t = {}, $$scope: s } = e;
   return (
@@ -4834,12 +4832,10 @@ function Xr(r) {
   };
 }
 
-
-// ---------for-slider-------
-
+// ---------for-slider--------
 
 function Jr(r) {
-  let e, n, t, s, o, i, u; 
+  let e, n, t, s, o, i, u;
   return (
     (e = new pt({
       props: {
@@ -4871,13 +4867,12 @@ function Jr(r) {
     (u = new pt({
       props: {
         parseSrc: r[2],
-        src: dt + "/images/works/file/splash.webp", 
+        src: dt + "/images/works/file/splash.webp",
         href: "/works/file",
         $$slots: { description: [Xr], header: [Qr] },
         $$scope: { ctx: r },
       },
     })),
-
     {
       c() {
         R(e.$$.fragment),
@@ -4886,7 +4881,7 @@ function Jr(r) {
           (s = N()),
           R(o.$$.fragment),
           (n = N()),
-          R(u.$$.fragment); 
+          R(u.$$.fragment);
       },
       l(l) {
         K(e.$$.fragment, l),
@@ -4895,10 +4890,16 @@ function Jr(r) {
           (s = q(l)),
           K(o.$$.fragment, l),
           (n = q(l)),
-          K(u.$$.fragment, l); 
+          K(u.$$.fragment, l);
       },
       m(l, a) {
-        H(e, l, a), x(l, n, a), H(t, l, a), x(l, s, a), H(o, l, a), H(u, l, a), (i = !0);
+        H(e, l, a),
+          x(l, n, a),
+          H(t, l, a),
+          x(l, s, a),
+          H(o, l, a),
+          H(u, l, a),
+          (i = !0);
       },
       p(l, a) {
         const c = {};
@@ -4908,29 +4909,29 @@ function Jr(r) {
         const f = {};
         a & 11 && (f.$$scope = { dirty: a, ctx: l }), o.$set(f);
         const d = {};
-        a & 11 && (d.$$scope = { dirty: a, ctx: l }), u.$set(d); 
+        a & 11 && (d.$$scope = { dirty: a, ctx: l }), u.$set(d);
       },
       i(l) {
         i ||
           (P(e.$$.fragment, l),
           P(t.$$.fragment, l),
           P(o.$$.fragment, l),
-          P(u.$$.fragment, l), 
+          P(u.$$.fragment, l),
           (i = !0));
       },
       o(l) {
-        j(e.$$.fragment, l), j(t.$$.fragment, l), j(o.$$.fragment, l), j(u.$$.fragment, l), (i = !1); 
+        j(e.$$.fragment, l),
+          j(t.$$.fragment, l),
+          j(o.$$.fragment, l),
+          j(u.$$.fragment, l),
+          (i = !1);
       },
       d(l) {
-        l && ($(n), $(s)), G(e, l), G(t, l), G(o, l), G(u, l); 
+        l && ($(n), $(s)), G(e, l), G(t, l), G(o, l), G(u, l);
       },
     }
   );
 }
-
-
-
-
 
 function Yr(r) {
   let e, n;
